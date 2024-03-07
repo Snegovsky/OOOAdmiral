@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fe365a3d649b4a80b9c7dbd9ad5b7d07" Name="Diagram1">
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Blacklist" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Employee" Width="1.5" PointX="6" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Reason" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Report" Width="1.5" PointX="8.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Request" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Result" Width="1.5" PointX="6" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Status" Width="1.5" PointX="3.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Unit" Width="1.5" PointX="3.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Visit" Width="1.5" PointX="8.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="User19_11_SecurityModel.Visitor" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Blacklist_Visitor1" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Employee_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Report_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Visit_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Request_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Request_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Request_Visitor" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Visit_Request" ManuallyRouted="false" />
+        <AssociationConnector Association="User19_11_SecurityModel.FK_Visit_Result" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
